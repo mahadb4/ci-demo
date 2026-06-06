@@ -7,9 +7,7 @@ on:
   pull_request:
     branches: [main]
 
-Env:
-
-
+env:
   IMAGE_NAME: ${{ secrets.DOCKER_USERNAME }}/myapp
 
 jobs:
